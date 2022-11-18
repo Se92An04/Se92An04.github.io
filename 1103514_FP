@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#a {
+  width: 350px;
+  height: 60px;
+  margin: 0;
+}
+#b {
+  width: 200px;
+  height: 100px;
+  border: 2px solid blue;
+  margin: 0;
+  float: right;
+  overflow: auto;
+}
+span.a{
+	display: inline-block;
+    width: 50px;
+    height: 15px;
+    padding: 5px;
+    border: 1px solid orange;
+    background-color: yellow;
+}
+
+</style>
+</head>
+<body>
+
+<h3>Caramel Apple Pie</h3>
+
+
+<div id=a>In this pie, the snap of fresh fruit gives way to a soft salted <span class="a">caramel</span> and a melt-in-your-mouth shortbread base. It’s essentially a <span class="a">caramel</span> apple on a buttery crust. In this pie, the snap of fresh fruit gives way to a soft salted <span class="a">caramel</span> and a melt-in-your-mouth shortbread base. It’s essentially a <span class="a">caramel</span> apple on a buttery crust. In this pie, the snap of fresh fruit gives way to a soft salted <span class="a">caramel</span> and a melt-in-your-mouth shortbread base. It’s essentially a <span class="a">caramel</span> apple on a buttery crust. In this pie, the snap of fresh fruit gives way to a soft salted <span class="a">caramel</span> and a melt-in-your-mouth shortbread base. It’s essentially a <span class="a">caramel</span> apple on a buttery crust.</div>
+
+<div id=b>In this pie, the snap of fresh fruit gives way to a soft salted caramel and a melt-in-your-mouth shortbread base. It’s essentially a caramel apple on a buttery crust. In this pie, the snap of fresh fruit gives way to a soft salted caramel and a melt-in-your-mouth shortbread base. It’s essentially a caramel apple on a buttery crust.</div>
+
+</body>
+</html>
