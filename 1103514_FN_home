@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+font-family: "Playfair Display";
+letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+<div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+<a href="#title" class="w3-bar-item w3-button">Vehicle Showroom Management System</a>
+<!-- Right-sided navbar links. Hide them on small screens -->
+<div class="w3-right w3-hide-small">
+<a href="#home" class="w3-bar-item w3-button">HOME</a>
+<a href="#about" class="w3-bar-item w3-button">ABOUT US</a>
+<a href="#bikes" class="w3-bar-item w3-button">BIKES</a>
+<a href="#showroom" class="w3-bar-item w3-button">SHOWROOM</a>
+<a href="#contactus" class="w3-bar-item w3-button">CONTACT US</a>
+</div>
+</div>
+</div>
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide"
+style="max-width:1600px;min-width:500px" id="home">
+<img class="w3-image" src="https://global.honda/products/assets/img/img-products02_pc.jpg"
+alt="Home Page" width="1600" height="800">
+<div class="w3-display-bottomleft w3-padding-large w3-opacity">
+<h1 class="w3-xxlarge">Wings of Trust</h1>
+</div>
+</header>
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+<!-- First Photo Grid-->
+<div class="w3-row-padding w3-padding-16 w3-center" id="home">
+<div class="w3-quarter">
+<h3>Pleasure</h3>
+<img src="https://global.honda/innovation/assets/motorcycle/img/img-mainLinks01.jpg"
+alt="Pleasure" style="width:100%">
+<p>We want you to have more pleasure with motorcycles. We are pursuing the starting
+point of motorcycles, which is not "easy to ride" but "fun to ride".</p>
+</div>
+<div class="w3-quarter">
+<h3>Ecology</h3>
+<img src="https://global.honda/innovation/assets/motorcycle/img/img-mainLinks02.jpg"
+alt="Ecology" style="width:100%">
+<p>We believe that we can reconcile two things: a beautiful earth, which is the sole source
+of people's livelihood, and people's rich and free activities. With this aspiration in mind, we will
+pass on a compatible future to the next generation.</p>
+</div>
+<div class="w3-quarter">
+<h3>Safety</h3>
+<img src="https://global.honda/innovation/assets/motorcycle/img/img-mainLinks03.jpg"
+alt="Safety" style="width:100%">
+<p>we think safety should allow us to spread our wings.Toward an accident-free society,
+everyone can move freely anywhere with peace of mind, following their curiosity.</p>
+</div>
+<div class="w3-quarter">
+<h3>Fashion</h3>
+<img src="https://global.honda/products/assets/motorcycles/img/img-special02.jpg"
+alt="Fashion" style="width:100%">
+<p>A specially designed logo to commemorate 30 great years of outstanding performance
+on the track and on the road.</p>
+</div>
+</div>
+<!-- Contact Section -->
+<div class="w3-container w3-padding-64" id="contactus">
+<h1>Contact</h1><br>
+<p>We understand your needs and we will do our best to support you. Do not hesitate to
+contact us.</p>
+<p class="w3-text-blue-grey w3-large"><b>Vehicle Showroom, XXX, XXX, Taiwan</b></p>
+<p>You can also contact us by phone 02-XXXX-XXXX or email
+support@vehicleshowroom.com, or you can make a reservation and send us a message
+here:</p>
+<form action="/action_page.php" target="_blank">
+
+<p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required
+name="Name"></p>
+<p><input class="w3-input w3-padding-16" type="text" placeholder="Contact Phone
+Number" required name="Phone"></p>
+<p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and
+time" required name="date" value="2020-11-16T20:00"></p>
+<p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special
+requirements" required name="Message"></p>
+<p><button class="w3-button w3-light-grey w3-section" type="submit">SEND
+MESSAGE</button></p>
+</form>
+</div>
+</div>
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS"
+target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+</body>
+</html>
